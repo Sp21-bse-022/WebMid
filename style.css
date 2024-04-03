@@ -16,11 +16,11 @@
     color: inherit;
   }
   
-  /* Header */
   header {
     background-color: #272a31;
     color: #fff;
     padding: 10px;
+    background-color: #FFFFFF;
   }
   
   nav {
@@ -30,14 +30,41 @@
     max-width: 1200px;
     margin: 0 auto;
   }
+  .h11{
+    color: #F34A1E;
+    font-size: 45px;
+    font-weight: 200;
+  }
+  .h12{
+    background-image: url(./Assets/text-background.jpg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 80px;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+    line-height: 70px;
+    width: 550px;
+  }
+  .p11{
+    font-size: 16px;
+    color: #3E3E3E;
+    font-weight: 400;
+  }
   
   .logo a {
     font-weight: 700;
     font-size: 1.2rem;
+    color: #3E3E3E;
   }
   
 .menu {
     display: flex;
+    justify-content: space-around;
+    color: #3E3E3E;
+    
   }
   
   .menu a {
@@ -51,12 +78,20 @@
   
   /* Main content */
   main {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 1500px;
     padding: 40px 20px;
+    background-image: url(./Assets/mobile_intro_bg.png);
+    padding-top:140px;
   }
   
   .hero {
-    text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
+    padding-left: 200px;
   }
+  .p12{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin-top: 35px;
+  }
+
